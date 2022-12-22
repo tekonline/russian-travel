@@ -1,6 +1,36 @@
+
+
+@import url(/vendor/normalize.css);
+@import url(/vendor/fonts/inter.css);
+
+.page {
+    display: grid;
+    background-color: red ;
+    width: 1280px;
+} 
+
 .header {
-    background-color: black;
-    height: 100px;
-    width: 100px;
+    display: grid;
+    background-color: #2A2C2F;
+    margin: 28px 48px  auto 28px;
+    grid-template-columns: 1fr 30px 30px;
+    grid-template-rows: 100%;
+    align-content: center;
+
+
 }
 
+.header__lang-link {
+    align-self: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline white;
+}
+
+
+.lead {
+    display: grid;
+}
