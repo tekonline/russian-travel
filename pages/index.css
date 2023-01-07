@@ -19,7 +19,7 @@
 @import url(/blocks/intro/__list/_number/intro__list-number.css);
 
 @import url(/blocks/photo-grid/photo-grid.css);
-@import url(/blocks/photo-grid/__item/grid__item.css);
+@import url(/blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(/blocks/place/place.css);
 @import url(/blocks/place/__image/place__image.css);
