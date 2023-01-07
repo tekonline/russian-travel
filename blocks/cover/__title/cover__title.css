@@ -9,3 +9,17 @@
    max-width: 560px;
    margin: 0 auto;
 }
+
+@media screen and (max-width: 660px) {
+   .cover__title {
+      font-family: 'Inter-Bold';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 35px;
+      min-height: 70px;
+      max-width: 220px;
+      color: #FFFFFF;
+      margin-top: 33px;
+   }
+}

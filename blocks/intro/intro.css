@@ -3,3 +3,22 @@
    margin-left: 148px;
    background-color: #2A2C2F;
 }
+
+@media screen and (max-width: 1125px) {
+
+   .intro {
+      margin-left: 48px;
+   }
+}
+
+@media screen and (max-width: 850px) {
+   .intro {
+      margin-left: 48px;
+   }
+}
+
+@media screen and (max-width: 660px) {
+   .intro {
+      margin: 0 16px 0 16px;
+   }
+}

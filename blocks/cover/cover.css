@@ -24,3 +24,26 @@
 .cover:hover::before {
    display: block;
 }
+
+
+@media screen and (max-width: 1125px) {
+   .cover {
+      max-width: 1024px;
+      min-height: 640px;
+   }
+}
+
+@media screen and (max-width: 850px) {
+   .cover {
+      max-width: 768px;
+      min-height: 480px;
+   }
+}
+
+@media screen and (max-width: 660px) {
+   .cover {
+      margin-top: 70px;
+      max-width: 320px;
+      min-height: 200px;
+   }
+}

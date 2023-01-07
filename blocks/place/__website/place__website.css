@@ -7,3 +7,9 @@
    align-content: end;
    margin-left: 7.7%;
 }
+
+@media screen and (max-width: 660px) {
+   .place__website {
+      margin-left: 16px;
+   }
+}

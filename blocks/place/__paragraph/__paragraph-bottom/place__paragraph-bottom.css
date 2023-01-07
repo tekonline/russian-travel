@@ -10,3 +10,16 @@
    line-height: 163%;
    color: #FFFFFF;
 }
+
+@media screen and (max-width: 660px) {
+   .place__paragraph-bottom {
+      margin-top: 25px;
+      margin-left: 16px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 163%;
+      color: #FFFFFF;
+   }
+}

@@ -6,3 +6,22 @@
    grid-template-rows: repeat(5, auto);
    margin-bottom: 80px;
 }
+
+@media screen and (max-width: 850px) {
+   .place {
+      max-width: 720px;
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 660px) {
+   .place {
+      max-width: 320px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      grid-template-columns: 320px;
+      grid-template-rows: auto;
+      margin-bottom: 44px;
+   }
+}

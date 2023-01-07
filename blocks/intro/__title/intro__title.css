@@ -6,3 +6,14 @@
    line-height: 107%;
    color: #FFFFFF;
 }
+
+@media screen and (max-width: 660px) {
+.intro__title {
+   font-family: 'Inter-Bold';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 35px;
+   color: #FFFFFF;
+   }
+}
