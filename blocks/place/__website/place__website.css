@@ -1,0 +1,9 @@
+.place__website {
+   display: grid;
+   grid-column-start: 2;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   justify-content: start;
+   align-content: end;
+   margin-left: 7.7%;
+}

@@ -1,0 +1,13 @@
+.place__paragraph-top {
+   grid-column-start: 2;
+   grid-row-start: 2;
+   grid-row-end: 3;
+   margin-top: 48px;
+   margin-left: 40px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 163%;
+   color: #FFFFFF;
+}
