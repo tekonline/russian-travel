@@ -1,7 +1,7 @@
 .cover {
    position: relative;
    display: flex;
-   background-image: url(/images/cover-trains.jpg);
+   background-image: url(../../images/cover-trains.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: contain;
