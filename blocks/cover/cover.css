@@ -25,11 +25,27 @@
    display: block;
 }
 
-
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1190px) {
    .cover {
       max-width: 1024px;
       min-height: 640px;
+   }
+}
+
+
+
+@media screen and (max-width: 1125px) {
+   .cover {
+      max-width: 985px;
+      min-height: 610px;
+   }
+}
+
+
+@media screen and (max-width: 980px) {
+   .cover {
+      max-width: 768px;
+      min-height: 480px;
    }
 }
 
@@ -43,7 +59,7 @@
 @media screen and (max-width: 660px) {
    .cover {
       margin-top: 70px;
-      max-width: 320px;
-      min-height: 200px;
+      max-width: 620px;
+      min-height: 390px;
    }
 }

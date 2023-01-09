@@ -9,6 +9,18 @@
    margin-bottom: 116px;
 }
 
+
+@media screen and (max-width: 1185px) {
+   .photo-grid {
+      margin: 0 48px 0 48px;
+      grid-template-columns: repeat(3, auto);
+      margin-top: 92px;
+      margin-bottom: 92px;
+   }
+}
+
+
+
 @media screen and (max-width: 1125px) {
    .photo-grid {
       margin: 0 48px 0 48px;
