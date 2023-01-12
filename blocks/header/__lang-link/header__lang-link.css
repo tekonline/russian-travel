@@ -1,5 +1,5 @@
 .header__lang-link {
-   justify-self: unset;
+   align-items: flex-end;
    text-decoration: none;
    color: #FFFFFF;
    font-family: 'Inter';

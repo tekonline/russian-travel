@@ -3,21 +3,3 @@
    margin: 0 auto;
    margin-top: 56px;
 }
-
-@media screen and (max-width: 1125px) {
-   .lead {
-         max-width: 928px;
-      }
-}
-
-@media screen and (max-width: 850px) {
-   .lead {
-      max-width: 768px;
-   }
-}
-
-@media screen and (max-width: 660px) {
-   .lead {
-      max-width: 320px;
-   }
-}

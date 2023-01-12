@@ -1,18 +1,4 @@
 .lead__image {
-   max-width: 958px;
-   object-fit: contain;
-}
-
-@media screen and (max-width: 1125px) {
-   .lead__image {
-      max-width: 100%;
-      margin: 0 auto;
-   }
-}
-
-
-@media screen and (max-width: 660px) {
-   .lead__image {
-      max-width: 320px;
-   }
+   max-width: 100%;
+   object-fit: cover;
 }
