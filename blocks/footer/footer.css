@@ -16,16 +16,6 @@
 
 @media screen and (max-width: 1200px) {
    .footer {
- 
-      margin: 92px 48px 24px 48px;
-   }
-}
-
-
-
-@media screen and (max-width: 1125px) {
-   .footer {
-
       margin: 92px 48px 24px 48px;
    }
 }
@@ -38,7 +28,6 @@
 
 @media screen and (max-width: 669px) {
    .footer {
-      display: flex;
       flex-direction: column;
    }
 }

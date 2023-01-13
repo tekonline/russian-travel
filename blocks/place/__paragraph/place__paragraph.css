@@ -8,6 +8,7 @@
    font-size: 18px;
    line-height: 163%;
    color: #FFFFFF;
+   margin-bottom: 0px;
 }
 
 @media screen and (max-width: 660px) {
@@ -15,6 +16,5 @@
       margin-top: 32px;
       margin-left: 16px;
       font-size: 16px;
-      margin-bottom: 0px;
    }
 }
