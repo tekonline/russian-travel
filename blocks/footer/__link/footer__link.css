@@ -3,6 +3,6 @@
    color: white;
 }
 
-.footer__link:visited {
-   color: white;
+.footer__link:hover {
+   color: rgba(255, 255, 255, 0.8);
 }

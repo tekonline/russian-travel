@@ -1,55 +1,25 @@
 .cover__link {
    display: block;
-   padding: 245px 312px 245px 312px;
+   min-height: 640px;
+   min-width: 100%;
    text-decoration: none;
+   background-color: rgba(0, 0, 0, 0.3);
 }
-
 
 .cover__link:hover {
-   background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width: 1136px) {
+@media screen and (max-width: 768px) {
    .cover__link {
-      padding: 195px 232px 240px 232px;
+      min-height: 480px;
    }
 }
 
-
-@media screen and (max-width: 976px) {
-   .cover__link {
-      padding: 180px 232px 220px 180px;
-   }
-}
-
-
-@media screen and (max-width: 927px) {
-   .cover__link {
-      padding: 170px 220px 210px 170px;
-   }
-}
-
-@media screen and (max-width: 927px) {
-   .cover__link {
-      padding: 170px 170px 210px 170px;
-   }
-}
-
-@media screen and (max-width: 892px) {
-   .cover__link {
-   padding: 115px 104px 115px 104px;
-   }
-}
-
-
-@media screen and (max-width: 720px) {
-   .cover__link {
-      padding: 40px 20px 40px 20px;
-   }
-}
 
 @media screen and (max-width: 552px) {
    .cover__link {
-      padding: 33px 16px 10px 16px;
+      max-width: 320px;
+      min-height: 200px;
    }
 }

@@ -1,5 +1,7 @@
 .footer__copyright {
    justify-self: flex-end;
+   margin-top: 0;
+   margin-bottom: 0;
 }
 
 @media screen and (max-width: 660px) {
