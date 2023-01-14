@@ -6,36 +6,49 @@
    grid-template-columns: repeat(4, 25%);
    grid-template-rows: auto;
    gap: 16px;
-   margin: 82px 28px 116px 28px;
+   margin: 0 auto;
+   margin-bottom: 109px;
+   margin-top: 82px;
+   padding: 10px 80px 0px 0px;
 }
 
 
 @media screen and (max-width: 1276px) {
    .photo-grid {
-      margin: 0 48px 0 48px;
+     margin: 0 auto;
       grid-template-columns: repeat(3, 33%);
       margin-top: 92px;
       margin-bottom: 92px;
+      max-width: 928px;
    }
 }
-
 
 
 @media screen and (max-width: 1125px) {
    .photo-grid {
       grid-template-columns: repeat(3, 33%);
+      padding: 0px 20px 0px 0px;
+      margin-bottom: 90px;
    }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 933px) {
    .photo-grid {
       grid-template-columns: repeat(2, 50%);
+      max-width: 720px;
+      margin: 0 auto;
+      margin-bottom: 88px;
    }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 715px) {
    .photo-grid {
       grid-template-columns: repeat(1, 100%);
-      margin: 64px 16px 64px 16px;
+      margin: 0 auto;
+      max-width: 288px;
+      margin-top: 65px;
+      padding-right: 0;
+      gap: 12px;
+      margin-bottom: 65px;
    }
 }

@@ -8,7 +8,21 @@
    color: #FFFFFF;
    max-width: 360px;
    margin: 0 auto;
-   margin-top: 32px;
+   margin-top: 40px;
+}
+
+
+@media screen and (max-width: 1192px) {
+   .cover__subtitle {
+      padding-bottom: 130px;
+   }
+}
+
+
+@media screen and (max-width: 1025px) {
+   .cover__subtitle{
+      padding-bottom: 0px;
+   }
 }
 
 @media screen and (max-width: 660px) {
@@ -17,5 +31,12 @@
    font-size: 14px;
    line-height: 16px;
    max-width: 298px;
+   }
+}
+
+
+@media screen and (max-width: 560px) {
+   .cover__subtitle {
+   max-width: 270px;
    }
 }

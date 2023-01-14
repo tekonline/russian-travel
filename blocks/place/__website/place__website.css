@@ -6,7 +6,23 @@
    justify-content: start;
    align-content: end;
    margin-left: 7.7%;
+   max-height: 150px;
 }
+
+@media screen and (max-width: 1025px) {
+   .place__website {
+      margin-left: 25px;
+   }
+}
+
+@media screen and (max-width: 880px) {
+   .place__website {
+      margin-left: 29px;
+      padding-bottom: 3px;
+   }
+}
+
+
 
 @media screen and (max-width: 660px) {
    .place__website {

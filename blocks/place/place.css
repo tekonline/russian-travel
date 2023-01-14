@@ -1,15 +1,25 @@
 .place {
-   max-width: 984px;
+   max-width: 985px;
    display: grid;
    margin: 0 auto;
    grid-template-columns: repeat(2, auto);
    margin-bottom: 80px;
 }
 
+
+@media screen and (max-width: 1025px) {
+   .place {
+      margin: 0px 48px 85px 48px;
+   }
+}
+
+
 @media screen and (max-width: 850px) {
    .place {
       max-width: 720px;
       font-size: 16px;
+      margin: 0 auto;
+      margin-bottom: 73px;
    }
 }
 
@@ -20,6 +30,15 @@
       flex-direction: column;
       grid-template-columns: 320px;
       grid-template-rows: auto;
+      margin-bottom: 44px;
+   }
+}
+
+
+
+@media screen and (max-width: 560px) {
+   .place {
+      max-width: 320px;
       margin-bottom: 44px;
    }
 }

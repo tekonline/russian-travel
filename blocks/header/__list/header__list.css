@@ -5,3 +5,10 @@
    margin-bottom: 0px;
    margin-top: 16px;
 }
+
+@media screen and (max-width: 670px) {
+   .header__list {
+   max-width: 55px;
+   margin-top: 11px;
+   }
+}

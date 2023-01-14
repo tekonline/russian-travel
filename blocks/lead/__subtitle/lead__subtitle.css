@@ -8,13 +8,39 @@
    color: #FFFFFF;
    max-width: 640px;
    margin: 0 auto;
-   margin-top: 32px;
+   margin-top: 25px;
    margin-bottom: 6.6%;
 }
+
+
+@media screen and (max-width: 1025px) {
+   .lead__subtitle {
+      margin-top: 30px;
+      padding-right: 10px;
+   }
+}
+
+
+@media screen and (max-width: 769px) {
+   .lead__subtitle {
+      padding-left: 10px;
+   }
+}
+
 
 @media screen and (max-width: 660px) {
    .lead__subtitle {
       font-size: 16px;
       line-height: 20px;
+   }
+}
+
+
+@media screen and (max-width: 660px) {
+   .lead__subtitle {
+     margin-top: 15px;
+     padding-left: 5px;
+     padding-right: 10px;
+     margin-bottom: 40px;
    }
 }
