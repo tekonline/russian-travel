@@ -1,5 +1,4 @@
 .cover__title {
-   
    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
    font-style: normal;
    font-weight: 900;
@@ -9,13 +8,6 @@
    max-width: 560px;
    text-align: center;
    margin: 0 auto;
-   margin-top: 30px;
-}
-
-@media screen and (max-width: 1192px) {
-   .cover__title {
-     padding-top: 20px;
-   }
 }
 
 
@@ -41,6 +33,5 @@
       max-width: 250px;
       margin-top: 0;
       padding-top: 0;
-      padding-bottom: 15px;
    }
 }

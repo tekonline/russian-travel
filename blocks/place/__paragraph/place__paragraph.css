@@ -1,6 +1,6 @@
 .place__paragraph {
    grid-column-start: 2;
-   margin-top: 45px;
+   margin-top: 1px;
    margin-left: 40px;
    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
    font-style: normal;
@@ -9,6 +9,12 @@
    line-height: 163%;
    color: #FFFFFF;
    margin-bottom: 0px;
+}
+
+
+.place__paragraph:first-of-type {
+   margin-top: 45px;
+   margin-bottom: 20px;
 }
 
 
@@ -31,18 +37,17 @@
 
 @media screen and (max-width: 660px) {
    .place__paragraph {
-      margin-top: 32px;
+      max-width: 288px;
+      margin-top: 5px;
       margin-left: 16px;
       font-size: 16px;
    }
+.place__paragraph:first-of-type {
+   max-width: 288px;
+   margin-top: 30px;
+   margin-bottom: 20px;
 }
 
 
-@media screen and (max-width: 560px) {
-   .place__paragraph {
-      margin-top: 30px;
-      margin-left: 15px;
-      font-size: 16px;
-      max-width: 288px;
-   }
 }
+

@@ -1,15 +1,16 @@
 .photo-grid {
    display: grid;
    box-sizing: border-box;
+   aspect-ratio: auto;
    object-fit: cover;
    max-width: 1184px;
-   grid-template-columns: repeat(4, 25%);
+   grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: auto;
    gap: 16px;
-   margin: 0 auto;
+  margin-left: 48px;
+  margin-right: 48px;
    margin-bottom: 109px;
-   margin-top: 82px;
-   padding: 10px 80px 0px 0px;
+   margin-top: 95px;
 }
 
 
