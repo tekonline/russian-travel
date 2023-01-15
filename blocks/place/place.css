@@ -3,17 +3,13 @@
    display: grid;
    margin: 0 auto;
    grid-template-columns: repeat(2, auto);
-   margin-bottom: 80px;
+   margin-bottom: 79.6px;
 }
 
-
-.place:last-of-type {
-   margin-bottom: 95px;
-}
 
 @media screen and (max-width: 1025px) {
    .place {
-      margin: 0px 48px 85px 48px;
+      max-width: 928px;
    }
 }
 
@@ -27,7 +23,7 @@
    }
 
       .place:last-of-type {
-         margin-bottom: 55px;
+         margin-bottom: 89px;
       }
 }
 
@@ -48,5 +44,8 @@
    .place {
       max-width: 320px;
       margin-bottom: 44px;
+   }
+   .place:last-of-type {
+      margin-bottom: 70px;
    }
 }
